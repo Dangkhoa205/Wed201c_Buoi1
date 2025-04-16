@@ -1,7 +1,84 @@
-hello
-hii
-huhu
-troi oii
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WED201c_Buoi1</title>
+</head>
 
-tra lai ne
+<body>
+    <div>
+        <h1> Buổi 1 - GIỚI THIỆU VỀ HTML VÀ CÁC THẺ TRONG HTML </h1>
+        <h2>I. Các thẻ chính trong HTML </h2>
+        <p> - Thẻ "p" - thẻ para : dùng để xác định được 1 đoạn paragraph, 1 đoạn văn bất kì</p>
+        <p> - Thẻ "img": là thẻ để đưa hình ảnh lên
+            ví dụ: <br>
+            <img src="data:image/jpeg;base64,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
+            alt="">
+        <br>
+        trong phần 'src'ta có thể đưa link hình ảnh từ trên mạng hoặc là lấy link từ trong máy
+        của mình bằng cách tạo 1 folder mới trong cùng 1 folder với file HTML rồi chọn hình ảnh
+
+    </p>
+
+    <p> - Thẻ " a": <a href="https://www.facebook.com/profile.php?id=100042273233823"> FB:Huỳnh Đăng Khoa</a>
+            <br>
+            ta có thể dùng thẻ a để chèn các link vào và có thể đặt tên lại cho link đó để nó ngắn gọn hơn
+
+        </p>
+
+        <p>
+            - Thẻ "ul": tạo danh sách nhưng không có thứ tự
+            <br> - Thẻ "ol": tạo danh sách có thứ tự
+            <br> ví dụ:
+        </p>
+
+        <p>
+            xếp không theo thứ tự "ul"
+        <ul>
+            <h5> Trong này còn có thẻ "li" </h5>
+            <li> Nguyễn Thị Mẹ</li>
+            <li> Nguyễn Văn cha</li>
+        </ul>
+
+        </p>
+        
+        <p> xếp theo thứ tự "ol"
+        <ol>
+            <li> Nguyễn Thị Mẹ</li>
+            <li> Nguyễn Văn cha</li>
+
+        </ol>
+        </p>
+
+    </div>
+
+    <div class="TableTable">
+        <h2> II. Bảng (Table)</h2>
+        <p> - Thẻ "table": dùng để tạo bảng</p>
+        <table border="11">
+            cái ' border="1" ': tức là độ đâmj của khung bảng
+            <br>
+            - Thẻ "tr": nằm trong table là để tạo hình vuông, và các hànghàng
+            <br> - Thẻ "td": nằm trong "tr" là để ghi nội dung vào hình vuông
+
+            <tr>
+
+                <td>STT</td>
+                <td>Họ và tên</td>
+                <td> ngày sinh</td>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td>Huỳnh Đăng Khoa</td>
+                <td> 11/05/2005</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
